@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinos y Helados</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="firebase.conect.js"></script>
+    <link 
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+  </head>
+  <section>
+    <a href="login.html">Iniciar Sesion</a>
+  </section>
+  <body>
+    <header role="banner">
+      <div class="main">
+        <nav class="navbar">
+          <div class="brand">
+            <i class="fas fa-wine-bottle"></i>
+            <h3>W&G</h3>
+          </div>
+          <div class="menu">
+            <ul id="menu">
+              <li><a href="#">Vino</a></li>
+              <li><a href="#">Uvas</a></li>
+              <li><a href="#">Galeria</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="toggle-menu" id="toggle-icon">
+            <i class="fa fa-bars"></i>
+          </div>
+        </nav>
+
+        <div class="container-info">
+          <div class="main-info">
+            <h1>Vino Y Uvas</h1>
+            <h2>Saborea el cielo en cada gota</h2>
+            <button class="btn">Comprar Uvas</button>
+          </div>
+          <div class="img-content">
+            <img src="asdfas.png" alt="" />
+          </div>
+
+          <div class="social-content">
+            <ul>
+              <li><i class="fab fa-facebook-f"></i></li>
+              <li><i class="fab fa-instagram"></i></li>
+              <li><i class="fab fa-twitter"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="wave" style="height: 150px; overflow: hidden;">
+        <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          style="height: 100%; width: 100%;"
+        >
+          <path
+            d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            style="stroke: none; fill: #fff;"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+    <section class="products-section">
+      <div class="wrapper">
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+          />
+          <div class="product-card-content">
+            <span class="product-category">HELADOS</span>
+            <div class="product-name">Berry Blast</div>
+            <p class="product-description">
+              Combate el calor del verano con nuestras paletas heladas Berry Blast especiales. Mezcla
+              de arándanos, frambuesas.
+            </p>
+          </div>
+          <div class="product-card-footer">
+            <div class="product-reviews-wrapper">
+              <div class="product-rating">
+                <span>4.9</span>
+              </div>
+              <div class="product-review">115 reseñas</div>
+            </div>
+            <div class="button-wrapper">
+              <button>Añadir a la cesta</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+          />
+          <div class="product-card-content">
+            <span class="product-category">HELADOS</span>
+            <div class="product-name">Berry Blast</div>
+            <p class="product-description">
+              Combate el calor del verano con nuestras paletas heladas Berry Blast especiales. Mezcla
+              de arándanos, frambuesas.
+            </p>
+          </div>
+          <div class="product-card-footer">
+            <div class="product-reviews-wrapper">
+              <div class="product-rating">
+                <span>4.9</span>
+              </div>
+              <div class="product-review">115 reseñas</div>
+            </div>
+            <div class="button-wrapper">
+              <button>Añadir a la cesta</button>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1488900128323-21503983a07e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80"
+          />
+          <div class="product-card-content">
+            <span class="product-category">ICE CREAM</span>
+            <div class="product-name">Berry Blast</div>
+            <p class="product-description">
+              Combate el calor del verano con nuestras paletas heladas Berry Blast especiales. Mezcla
+              de arándanos, frambuesas.
+            </p>
+          </div>
+          <div class="product-card-footer">
+            <div class="product-reviews-wrapper">
+              <div class="product-rating">
+                <span>4.9</span>
+              </div>
+              <div class="product-review">115 reseñas</div>
+            </div>
+            <div class="button-wrapper">
+              <button>Añadir a la Cesta</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-to-chose">
+      <article>
+        <div class="product--info"></div>
+      </article>
+      <article>
+        <div class="product-info-img"></div>
+      </article>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
